@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cs {
+    transition: transform 600ms ease-in-out, filter 400ms ease-in-out;
+    /* z-index: 10; */
+}
+
+.cs:hover {
+    transform: scale(1.01);
+}
+
+#search:focus {
+    .search-box {
+        justify-content: start;
+    }
+}
+
+#box {
+    backdrop-filter: blur(50px);
+    backdrop-filter: blur(29px);
+}
